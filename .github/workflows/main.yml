@@ -7,5 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Print folder content"
-        run: ls
+      - name: "Testing Github "
+        run: pwd
+
+      - name: "Testing printing "
+        run: echo Ahmed
