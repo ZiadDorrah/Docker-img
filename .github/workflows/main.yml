@@ -7,8 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Testing Github "
-        run: pwd
+      - name: "Before "
+        run: ls
 
-      - name: "Testing printing "
-        run: echo Ahmed
+      - user: actions\checkout@v3
+
+      - name: "After "
+        run: ls
