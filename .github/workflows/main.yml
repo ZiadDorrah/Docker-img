@@ -4,11 +4,8 @@ on:
       - master
 jobs:
   build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
-      - name: "Testing Github "
-        run: pwd
-
-      - name: "Testing printing "
-        run: echo Ahmed
+      - name: "Print folder content"
+        run: ls
